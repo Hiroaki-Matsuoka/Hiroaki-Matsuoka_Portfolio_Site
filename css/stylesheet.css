@@ -742,7 +742,7 @@ bottom: 3px;
 
 #DETAIL .l-header {
  /* 詳細ページで使用する背景画像 */
- background-image: linear-gradient(to bottom, rgba(92, 77, 66, 0.6) 0%, rgba(92, 77, 66, 0.6) 100%), url(../image/sample07.jpg);
+ background-image: linear-gradient(to bottom, rgba(92, 77, 66, 0.6) 0%, rgba(92, 77, 66, 0.6) 100%), url(../image/header.jpg);
 }
 
 /* ==================================
@@ -766,6 +766,7 @@ bottom: 3px;
 
 .p-detail_container {
  max-width: 800px;
+ margin: 0 auto;
 }
 
 .p-detail_title {
