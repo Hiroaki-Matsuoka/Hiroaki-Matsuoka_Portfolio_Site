@@ -78,7 +78,7 @@ light: #fff;
 gray: #d3d3d3;
 gray-light: #e8e8e8;
 primary: #00478b;
-secondary: #fc9303;
+secondary: gray;
 ===================================== */
 
 
@@ -131,7 +131,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 3px solid #fc9303;
+  border-top: 3px solid gray;
   border-radius: 1px;
 }
 
@@ -300,6 +300,10 @@ bottom: 3px;
   padding: 100px 0;
 }
 
+.p-profile_tw {
+  color: #00acee;
+}
+
 @media screen and (max-width: 576px) {
   .p-profile {
     padding: 75px;
@@ -309,6 +313,10 @@ bottom: 3px;
 .p-profile_container {
   max-width: 700px;
   margin: 0 auto;
+}
+
+.p-profile_logos {
+  text-align: center;
 }
 
 .p-profile_title {
@@ -458,7 +466,7 @@ bottom: 3px;
   font-size: 18px;
   text-align: center;
   background-color: #fff;
-  border: 2px solid #fc9303;
+  border: 2px solid gray;
   border-radius: 2px;
   cursor: pointer;
   transition: all 0.3s;
@@ -511,11 +519,13 @@ bottom: 3px;
 }
 
 .ruby {
-  /* margin-left: 50%; */
-  /* transform: translate(-50%, -50%); */
-  /* display: grid;
-  place-items: center; */
   margin-bottom: 38px;
+  max-width: 70px;
+  height: auto;
+}
+
+.rails {
+  margin-bottom: 20px;
   max-width: 70px;
   height: auto;
 }
@@ -606,12 +616,15 @@ bottom: 3px;
 .p-contact_mymail {
   text-align: center;
   font-size: 28px;
-  width: auto;
+  /* width: auto; */
 }
 
 @media screen and (max-width: 576px) {
  .p-contact {
    padding: 75px 0;
+ }
+ .p-contact_mymail {
+  font-size: 20px
  }
 }
 
@@ -667,7 +680,7 @@ bottom: 3px;
  font-family: "Noto Sans JP", sans-serif;
  text-align: center;
  background-color: #fff;
- border: 2px solid #fc9303;
+ border: 2px solid gray;
  border-radius: 2px;
  cursor: pointer;
  transition: all 0.3s;
@@ -809,7 +822,7 @@ bottom: 3px;
 
 .p-detail_link {
  font-size: 18px;
- color: #fc9303;
+ color: gray;
 }
 
 .p-detail_icon {
