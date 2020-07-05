@@ -506,9 +506,16 @@ bottom: 3px;
   width: 13.2%;
 }
 
+.p-skill_ruby {
+  text-align: center;
+}
+
 .ruby {
-  margin-left: 50%;
+  /* margin-left: 50%; */
   /* transform: translate(-50%, -50%); */
+  /* display: grid;
+  place-items: center; */
+  margin-bottom: 38px;
   max-width: 70px;
   height: auto;
 }
@@ -599,6 +606,7 @@ bottom: 3px;
 .p-contact_mymail {
   text-align: center;
   font-size: 28px;
+  width: auto;
 }
 
 @media screen and (max-width: 576px) {
