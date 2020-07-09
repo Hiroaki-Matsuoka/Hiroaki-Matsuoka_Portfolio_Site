@@ -301,7 +301,19 @@ bottom: 3px;
 }
 
 .p-profile_tw {
+  margin-right: 10px;
   color: #00acee;
+}
+
+.p-profile_qiita {
+  margin-left: 10px;
+  margin-bottom: 15px;
+  max-width: 35px;
+  height: auto;
+}
+
+.p-profile_document {
+  font-size: 24px;
 }
 
 @media screen and (max-width: 576px) {
@@ -313,6 +325,7 @@ bottom: 3px;
 .p-profile_container {
   max-width: 700px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .p-profile_logos {
@@ -337,6 +350,10 @@ bottom: 3px;
   margin-bottom: 20px;
   font-size: 18px;
   font-weight: bold;
+}
+
+.p-profile_text {
+  line-height: 1;
 }
 
 .p-profile_text:not(:last-child) {
