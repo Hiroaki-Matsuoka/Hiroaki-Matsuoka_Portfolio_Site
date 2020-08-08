@@ -377,12 +377,10 @@ bottom: 3px;
 .img_resize {
   width: 50% !important;
   height: 50% !important;
-  /* margin: 0 auto !important; */
-  margin-top: 50px;
 }
 
 .sub_contnts {
-  display: flex;
+  margin-top: 50px;
 }
 
 .moku {
