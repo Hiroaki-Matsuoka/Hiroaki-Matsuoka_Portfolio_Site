@@ -323,9 +323,8 @@ bottom: 3px;
 }
 
 .p-profile_container {
-  max-width: 700px;
+  max-width: 1000px;
   margin: 0 auto;
-  /* text-align: center; */
 }
 
 .p-profile_document {
@@ -373,6 +372,21 @@ bottom: 3px;
 
 .p-profile_text:not(:last-child) {
   margin-bottom: 20px;
+}
+
+.img_resize {
+  width: 50% !important;
+  height: 50% !important;
+  /* margin: 0 auto !important; */
+  margin-top: 50px;
+}
+
+.sub_contnts {
+  display: flex;
+}
+
+.moku {
+  margin-bottom: 50px;
 }
 
 /* ポートフォリオ */
