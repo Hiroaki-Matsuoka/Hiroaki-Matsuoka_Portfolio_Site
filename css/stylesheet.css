@@ -353,10 +353,10 @@ bottom: 3px;
 
 .p-profile_image {
   width: 150px;
-  height: 150px;
+  height: 210px;
   margin: 0 auto 30px auto;
   display: block;
-  border-radius: 75px;
+  border-radius: 100px;
 }
 
 .p-profile_name {
@@ -375,16 +375,31 @@ bottom: 3px;
 }
 
 .img_resize {
-  width: 50% !important;
+  width: 70% !important;
   height: 50% !important;
 }
 
-.sub_contnts {
-  margin-top: 50px;
+.sub_contents {
+  margin-top: 100px;
 }
 
 .moku {
+  margin-left: 100px;
   margin-bottom: 50px;
+  width: 500px;
+  display: inline-block;
+}
+
+.p-profile_mokutext {
+  font-size: 14px;
+}
+
+.moku_text {
+  display: inline-block;
+}
+
+.moku_text > .moku_text_imp {
+  color: red;
 }
 
 /* ポートフォリオ */
