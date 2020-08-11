@@ -351,6 +351,10 @@ bottom: 3px;
   text-align: center;
 }
 
+.profile_skill {
+  font-size: 24px;
+}
+
 .p-profile_image {
   width: 150px;
   height: 210px;
