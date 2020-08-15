@@ -24,6 +24,8 @@
 </head>
 
 <body id="INDEX">
+
+  <!-- ここからヘッダー・メインビジュアル -->
   <header id="header" class="l-header">
     <div class="l-header_container l-content-wrap-default">
       <h1 class="l-header_title">
@@ -32,43 +34,11 @@
       <p class="l-header_text">
         Welcome to My Portfolio Site
         <br>
-
       </p>
     </div>
-    <!-- モーダルメニュー -->
-    <!-- <nav class="l-header_navigation">
-      <ul class="l-header_navigation_list">
-        <li class="l-header_navigation_item">
-          <a href="#profile" class="l-header_navigation_link">
-            Profile
-          </a>
-        </li>
-        <li class="l-header_navigation_item">
-          <a href="./portfolio/" class="l-header_navigation_link">
-            Portfolio
-          </a>
-        </li>
-        <li class="l-header_navigation_item">
-          <a href="#skill" class="l-header_navigation_link">
-            Skill
-          </a>
-        </li>
-        <li class="l-header_navigation_item">
-          <a href="#contact" class="l-header_navigation_link">
-            Contact
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <button class="c-button">
-      <a class="menu-trigger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </a>
-    </button> -->
   </header>
 
+  <!-- ここからプロフィール画像 -->
   <main id="main" class="l-main">
     <article class="profile p-profile l-content-wrap-default">
       <div class="p-profile_container">
@@ -83,22 +53,41 @@
           <a href="https://qiita.com/Hiroaki-Matsuoka"><img src="image/q_favicon.png" class="p-profile_qiita"></a>
           <a href="https://www.strava.com/athletes/25738269"><img src="image/strava.jpeg" class="p-profile_qiita"></a>
         </div>
+
+        <!-- ここから自己紹介文 -->
         <p class="p-profile_name">
           松岡 弘晃 (まつおか ひろあき) S63/09/05生まれ 31歳
         </p>
         <p class="p-profile_text">
-          IT技術を使って人の仕事や生活の問題を根本的に解決したいと思い転職を決意しました。
+          IT技術を使って人や社会の可能性を広げる仕事に携わりたいと思い転職を決意しました。
+        </p>
+        <p class="p-profile_text">
+          今までWebアプリを利用する側として大きな恩恵を受けてきましたが、<strong>「こんな機能があればもっと成果を出せるのに・・・」</strong>
+        </p>
+        <p class="p-profile_text">
+          とアイデアはあっても形にできずもどかしい思いをすることが数多くありました。
+        </p>
+        <p class="p-profile_text">
+          そんな中、前職在籍中に将来少しでも何かできないかと思いJavaScriptの学習を始めた時にプログラミングや
+        </p>
+        <p class="p-profile_text">
+          エラー解決がとても楽しく感じたことがきっかけで自分もエンジニアになろうと思いました。
+        </p>
+        <br>
+        <p class="p-profile_name">
+          2020年の取り組み
+        </p>
         <p class="p-profile_text">
           2020年1月から<strong>毎日学習を継続</strong>しており、<strong>サーバーサイドエンジニア志望</strong>です。
         </p>
         <p class="p-profile_text">
-          変化を恐れずに新しいことへ積極的に挑戦したいと思っており、
+          変化を恐れずに新しいことへ積極的に挑戦したいと思っており、<strong>もくもく会でのLT登壇、YOUTUBEへの動画投稿</strong>
         </p>
         <p class="p-profile_text">
-          <strong>もくもく会でのLT登壇、YOUTUBEへの動画投稿</strong>など新しい事に積極的に挑戦、
+          など新しい事に積極的に挑戦、学習のアウトプットとして<strong>毎日Twitterでの学習ツイート、Qiitaへの記事投稿</strong>をしています!
         </p>
         <p class="p-profile_text">
-          学習のアウトプットとして<strong>毎日Twitterでの学習ツイート、Qiitaへの記事投稿</strong>をしています!
+
         </p>
         <p class="p-profile_text">
           IT業界ならではのスピード感やアイデアを具現化できる点には大きな魅力を感じており、
@@ -106,20 +95,28 @@
         <p class="p-profile_text">
           私の経験を活かしてもっと広く社会へ貢献できる、人の繋がりを大切にしたエンジニアを目指しています！
         </p>
+
+        <!-- ここから学習スキル -->
         <div class="p-profile_center">
           <h2>【学習スキル】</h2>
           <p class="p-profile_text profile_skill">
-            <strong>HTML、CSS、JavaScript、jQuery、Firebase、Vue.js</strong>
+            <strong>HTML、CSS、JavaScript、jQuery、Firebase、Vue.js(1月〜3月)</strong>
           </p>
           <p class="p-profile_text profile_skill">
-            <strong>Ruby、Ruby on Rails、SQL、SCSS</strong>
+            <strong>Ruby、Ruby on Rails、Git、GitHub、SQL、SCSS(4月~8月)</strong>
           </p>
         </div>
-        <div class="sub_contents">
+        <div class="p-profile_center">
+          <h2>【直近の学習予定スキル】</h2>
+          <p class="p-profile_text profile_skill">
+            <strong>AWS、Docker</strong>
+          </p>
+        </div>
 
+        <!-- ここから動画掲載部分 -->
+        <div class="sub_contents">
           <div class="moku_text">
             <iframe class="col" width="358" height="201" src="https://www.youtube.com/embed/83XBK6WvdHs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <!-- <p class="p-profile_text">もくもく会でのLT登壇の様子</p> -->
             <h2>LT登壇</h2><br>
             <p class="moku_text_imp">・知識を共有する発信力</p>
             <p class="moku_text_imp">・人前に出る事を恐れない精神力</p>
@@ -147,6 +144,9 @@
       </div>
     </article>
 
+
+    <!-- ここからポートフォリオ一覧 -->
+    <!-- ポートフォリオ1つ目 -->
     <article class="portfolio p-portfolio">
       <div class="p-portfolio_container l-content-wrap-default">
         <h2 class="p-portfolio_title">Portfolio</h2>
@@ -189,6 +189,8 @@
               </p>
             </div>
           </a>
+
+          <!-- ポートフォリオ2つ目 -->
           <a href="https://tenkue-01.takanori-portfolio.com/" class="p-portfolio_link">
             <div class="p-portfolio_image-wrap">
               <img src="./image/kyodo_kaihatsu_pf.png" alt="ポートフォリオ02" class="p-portfolio_image" width="500" height="350">
@@ -226,6 +228,8 @@
               </p>
             </div>
           </a>
+
+          <!-- ポートフォリオ3つ目 -->
           <a href="./portfolio/#portfolio01" class="p-portfolio_link">
             <div class="p-portfolio_image-wrap">
               <img src="./image/blackjack_photo.png" alt="ポートフォリオ03" class="p-portfolio_image" width="500" height="350">
@@ -263,7 +267,9 @@
               </p>
             </div>
           </a>
-          <a href="./portfolio/#portfolio01" class="p-portfolio_link">
+
+          <!-- ポートフォリオ4つ目 -->
+          <a href="https://github.com/Hiroaki-Matsuoka/memory_game" class="p-portfolio_link">
             <div class="p-portfolio_image-wrap">
               <img src="./image/memory_game.png" alt="ポートフォリオ04" class="p-portfolio_image" width="500" height="350">
             </div>
@@ -306,6 +312,8 @@
               </p>
             </div>
           </a>
+
+          <!-- ポートフォリオ5つ目 -->
           <a href="./portfolio/#portfolio01" class="p-portfolio_link">
             <div class="p-portfolio_image-wrap">
               <img src="./image/header.jpg" alt="ポートフォリオ05" class="p-portfolio_image">
@@ -343,6 +351,8 @@
               </p>
             </div>
           </a>
+
+          <!-- ポートフォリオ6つ目 -->
           <a href="./portfolio/#portfolio01" class="p-portfolio_link">
             <div class="p-portfolio_image-wrap">
               <img src="./image/header.jpg" alt="ポートフォリオ05" class="p-portfolio_image">
