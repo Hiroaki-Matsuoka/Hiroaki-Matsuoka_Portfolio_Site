@@ -382,8 +382,8 @@ bottom: 3px;
 }
 
 .img_resize {
-  width: 80% !important;
-  height: 75% !important;
+  width: 320px !important;
+  height: 200px !important;
 }
 
 .sub_contents {
@@ -405,11 +405,46 @@ bottom: 3px;
   width:100%;
 }
 
+.moku_text_imp {
+  line-height: 2;
+}
+
+.youtube_containts {
+  width: 1000px;
+  margin-left:335px;
+}
+
 @media screen and (max-width: 576px) {
+.sub_contents {
+  margin-top: 20px !important;
+}
+
+.p-profile_text {
+  font-size: 20px;
+}
+
+.p-profile_center > .p-profile_text {
+  font-size: 18px;
+}
+
+.moku_text_imp {
+  font-size: 18px;
+  line-height: 2;
+}
+
 .sub_contents {
   flex-direction: column;
   align-content:space-around;
 }
+.youtube_containts {
+  margin: 0;
+  width: 350px;
+}
+
+#youtube_text {
+  font-size: 28px !important;
+}
+
 .item .moku_text{
  width:100%;
 }
@@ -419,19 +454,29 @@ bottom: 3px;
 .moku_text:nth-child(2){
      order: 3;
 }
-/* .item:nth-child(3){
-     order: 1;
+.moku:nth-child(2){
+     order: 3;
 }
-.item:nth-child(4){
+.moku_text:nth-child(3){
+     order: 4;
+}
+/* /.moku:nth-child(3){
+     order: 3;
+} */
+/* .item:nth-child(4){
      order: 4;
 }
 .item:nth-child(5){
      order: 5;
-} */
+}  */
 }
 
 .moku_text > .moku_text_imp {
   color: red;
+}
+
+.moku_text_title {
+  margin-bottom: 50px;
 }
 
 /* ポートフォリオ */
@@ -445,7 +490,17 @@ bottom: 3px;
   .p-portfolio {
     padding: 75px 0;
   }
+
+  .p-portfolio_content > .p-portfolio_text {
+    font-size: 12px;
+  }
+
+  .p-portfolio_image {
+    height: 240px;
+  }
+
 }
+
 
 .p-portfolio_title {
   font-family: "Lato", sans-serif;
