@@ -486,6 +486,26 @@ bottom: 3px;
   background-color: #e8e8e8;
 }
 
+.port__1 {
+  height: 280px;
+}
+
+.port__2 {
+  height: 280px;
+}
+.port__3 {
+  height: 350px;
+}
+.port__4 {
+  height: 380px;
+}
+.port__5 {
+  height: 300px;
+}
+.port__6 {
+  height: 320px;
+}
+
 @media screen and (max-width: 576px) {
   .p-portfolio {
     padding: 75px 0;
